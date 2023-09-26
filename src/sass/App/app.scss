@@ -1,0 +1,46 @@
+.content{
+    flex-flow:column;
+
+    &--header{ 
+        order:1; 
+        display:flex; 
+        flex-flow: row wrap ; 
+        height: 3em;
+        background-color:black;
+        flex: 1 1 auto;
+        justify-content: start;
+        align-content: center;
+        &__item{
+            align-items: center;
+            flex: 0 0 5em ; 
+            a{
+                text-decoration: none;
+            }
+            color: white ; 
+            margin-left:0.5em; 
+            margin-right:0.5em;
+            font-size:1.2em; 
+        }
+        &__item-last{
+
+            color: white ; 
+            font-size: 1.2em;
+            flex: 0 0 5em ; 
+            a{
+                text-decoration: none;
+            }
+            margin-left: auto ; 
+        }
+
+    }
+    &--page{
+        order:2 ; 
+
+    }
+    &--footer{
+        order:3;
+
+    }
+
+
+}
